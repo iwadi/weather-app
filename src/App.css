@@ -1,0 +1,56 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.content {
+  margin-top: '20px';
+  text-align: 'left'; 
+  display: 'inline-block'; 
+}
+
+/* ============= */
+
+h1 {
+  font-family: 'Segoe UI';
+  font-size: 64px;
+}
+
+h1 span {
+  transition: all .3s;
+}
+
+h1 span:hover {
+  cursor: pointer;
+  color: red;
+}
+
+h1 span:active {
+  color: rgb(255, 255, 255);
+}
+
+/* ============= */
+
+input {
+  font-size: 55px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+input:focus {
+  outline: none;
+}
+
+/* ============= */
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+@media (max-width: 430px) {
+}
